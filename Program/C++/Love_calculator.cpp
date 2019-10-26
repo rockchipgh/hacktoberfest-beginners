@@ -9,7 +9,9 @@ void calc(int *arr, int num)
 		if(num == 2 || num == 1)
 		{
 			for(int i = 0 ;i < num ;i++)
-			cout<<arr[i];
+			if(arr[i]>100)
+			cout>>"Oh!! Looks like your love is over 9000";
+			else cout<<arr[i];
 			cout<<" %";
 			if(arr[0] >= 7)
 			cout<<"\nCongrats! ^_^";
